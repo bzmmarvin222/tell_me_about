@@ -9,7 +9,7 @@ export const BAD_ADJECTIVES = [
   'steckt geliehene Feuerzeuge ein',
   'trägt bei Umzügen nur die leichten Kisten',
   'mag keine Hunde',
-  'überlegt bei Mc\'Donalds nach dem Anstehen',
+  'überlegt bei Mc\'Donalds erst nach dem Anstehen',
   'trägt Socken in Sandalen',
   'hat mit dem Rauchen \"aufgehört\" aber fragt jedes mal: \"Hasse nochmal eine für mich?\"',
   'nerviger Veganer',
