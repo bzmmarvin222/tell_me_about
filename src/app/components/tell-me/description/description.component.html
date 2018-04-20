@@ -1,0 +1,11 @@
+<h1 *ngIf="name">{{name}}</h1>
+
+<mat-list *ngIf="(adjectives$ | async) as adjs">
+  <h3 mat-subheader class="header">Gut</h3>
+  <mat-list-item class="item" *ngFor="let adj of adjs[0]">{{adj}}</mat-list-item>
+  <mat-list-item class="item" *ngIf="adjs[0]?.length === 0">Keine Einträge gefunden</mat-list-item>
+  <mat-divider></mat-divider>
+  <h3 mat-subheader class="header">Schlecht</h3>
+  <mat-list-item class="item" *ngFor="let adj of adjs[1]">{{adj}}</mat-list-item>
+  <mat-list-item class="item" *ngIf="adjs[1]?.length === 0">Keine Einträge gefunden</mat-list-item>
+</mat-list>

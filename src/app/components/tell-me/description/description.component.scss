@@ -1,0 +1,18 @@
+h1 {
+  margin-top: 80px;
+  font-size: 26px;
+  color: indigo;
+  padding: 0 16px;
+}
+
+mat-list {
+  margin-top: 20px;
+
+  .header {
+    font-size: 24px;
+  }
+
+  .item {
+    font-size: 18px;
+  }
+}

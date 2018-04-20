@@ -1,0 +1,13 @@
+<form (ngSubmit)="updateName()">
+  <mat-form-field class="form_field">
+    <input matInput placeholder="Name" [(ngModel)]="name" name="name">
+  </mat-form-field>
+  <button mat-mini-fab type="submit">
+    <i class="material-icons">send</i>
+  </button>
+</form>
+
+<app-description
+  [name]="submitted">
+
+</app-description>

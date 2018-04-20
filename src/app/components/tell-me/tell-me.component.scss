@@ -1,0 +1,18 @@
+form {
+  padding: 0 16px;
+}
+
+.form_field {
+  width: 100%;
+  color: indigo;
+}
+
+button {
+  float: right;
+  i.material-icons {
+    color: indigo;
+    position: relative;
+    top: -1px;
+    right: -1px;
+  }
+}
