@@ -8,13 +8,15 @@ import {AdjectiveService} from '../../services/adjective.service';
 })
 export class TellMeComponent {
 
-  public name: string;
+  public name: string = '';
   public submitted: string;
 
   constructor(private _svc: AdjectiveService) { }
 
   public updateName(): void {
-    this.submitted = this.name;
-    this._svc.setNext(this.name);
+    if (this.name) {
+      this.submitted = this.name;
+      this._svc.setNext(this.name);
+    }
   }
 }

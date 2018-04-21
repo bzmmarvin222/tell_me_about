@@ -10,7 +10,7 @@ import {AdjectiveService} from '../../../services/adjective.service';
 export class DescriptionComponent implements OnInit {
 
   @Input() public name: string;
-  public adjectives$: Observable<[string[], strng[]]>;
+  public adjectives$: Observable<[string[], string[]]>;
 
   constructor(private _svc: AdjectiveService) { }
 
