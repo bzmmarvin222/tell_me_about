@@ -9,6 +9,7 @@ import { TellMeComponent } from './components/tell-me/tell-me.component';
 import {FormsModule} from '@angular/forms';
 import { DescriptionComponent } from './components/tell-me/description/description.component';
 import {AdjectiveService} from './services/adjective.service';
+import {ServiceWorkerModule} from '@angular/service-worker';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import {AdjectiveService} from './services/adjective.service';
     MatInputModule,
     MatButtonModule,
     FormsModule,
-    MatListModule
+    MatListModule,
+    ServiceWorkerModule.register('ngsw-worker.js')
   ],
   providers: [
     {provide: MAT_LABEL_GLOBAL_OPTIONS, useValue: {float: 'always'}},
