@@ -1,0 +1,22 @@
+{
+  "name": "Tell me about...",
+  "short_name": "Tell me about...",
+  "description": "This application tells you something about your co-workers.",
+  "lang": "de-DE",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#f5f5f5",
+  "icons": [
+    {
+      "src": "assets/logos/bag_logo_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logos/bag_logo_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#11eed6"
+}
