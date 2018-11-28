@@ -5,7 +5,7 @@
   "lang": "de-DE",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#f5f5f5",
+  "theme_color": "red",
   "icons": [
     {
       "src": "assets/logos/bag_logo_192x192.png",
